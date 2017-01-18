@@ -1,0 +1,98 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-size: 12pt;
+    font-style: normal;
+    font-family: Tahoma, sans-serif;
+    background-color: rgba(133,175,255,0.3);
+    
+}
+
+#page {
+    width :1280px;
+    margin:0px auto;
+    border: 1px solid black;
+}
+
+header {
+
+}
+
+#logo {
+    float:left;
+}
+
+header h1 {
+    font-family: 'Harlow Solid', fantasy;
+    font-size:3em;
+    text-align:center;
+    padding-top:15px;
+}
+#menu1 {
+    clear:both;
+    padding-top:20px; 
+    
+}
+
+.navbar-default {
+     background: linear-gradient(rgba(230,230,230,1),rgba(260,260,260,1))
+    /*background: linear-gradient(cornflowerblue,rgba(101,156,239,0.1));*/
+    /*background: linear-gradient(rgba(133,175,255,1), rgba(133,175,255,0.5), rgba(133,175,255,0.01)) !important;*/
+    
+
+}
+.navbar-default  .navbar-nav>li {
+    border-right: 1px solid rgba(200,200,200,1);
+    font-family: Tahoma, sans-serif;
+    color: black;
+}
+    .navbar-default .navbar-nav > li:hover {    
+        background-color: cornflowerblue;
+    }
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:white;
+}
+
+ .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background: linear-gradient(rgba(133,175,255,0.1), rgba(133,175,255,1), rgba(133,175,255,0.1)) !important;
+    }
+
+ /*couleur écriture de a dans li de navbar*/
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+#main {
+    height:500px;
+
+}  
+
+.button {
+    margin-top: 50px;
+    margin-left:8px;
+    min-width:300px;
+    height:50px;
+    border:none;
+    border-radius:10px;
+    /*background: linear-gradient(cornflowerblue,rgba(101,156,239,0.1));*/
+    background: linear-gradient(rgba(230,230,230,1),rgba(260,260,260,1));
+    color:black !important;
+    
+}
+
+.button:hover {
+    background: cornflowerblue;
+    color:white
+}
+
+    
+.ReceptionNotification{
+    padding : 30px;
+    font-size:0.9em;
+    display:flex;
+    flex-direction:column;
+}
+
