@@ -116,25 +116,25 @@ table.dataTable tbody td {
         font-size:0.8em;
     }
 #Attribution table {
-    width: 60% !important;
+    width: 80% !important;
+     margin-left:100px !important;
    
 }
 #Synthese table {
-    width: 50% !important;
-    margin-left:50px ;
-    padding:200px;
-    margin-right:50px;
+    width: 60% !important;
+    margin-left:200px !important;
+   
 }
 
 #Synthese .dataTables_wrapper .ui-toolbar {
-    width:50% !important;
-   margin-left:50px;
-   margin-right:50px;
+    width:60% !important;
+  margin-left:200px;
+   /*margin-right:50px;*/
    font-size:0.8em;
 }
 #Attribution .dataTables_wrapper .ui-toolbar {
-    width:60% !important;
-    margin-left:183px;
+    width:80% !important;
+    margin-left:100px;
    font-size:0.8em;
 
 }
@@ -142,15 +142,15 @@ table.dataTable tbody td {
    font-size:0.8em;
 }
 #notifications .dataTables_wrapper .ui-toolbar {
-   width:60% !important;
+   width:80% !important;
    margin-left:100px;
    font-size:0.8em;
 }
 #notifications table {
-    width: 60% !important;
+    width: 80% !important;
     margin-left:100px;
 }
-.form-group{
+#Attribution .form-group{
     display:flex;
     flex-direction:column;
 }
@@ -166,6 +166,21 @@ table.dataTable tbody td {
     color:black !important;   
 }
 #Attribution .button:hover {
+    background: cornflowerblue;
+    color:white
+}
+#Synthese .button{ 
+    margin-top:100px;
+    margin-bottom:10px; 
+    min-width:200px;
+    height:50px;
+    border:none;
+    border-radius:5px;
+    /*background: linear-gradient(cornflowerblue,rgba(101,156,239,0.1));*/
+    background: linear-gradient(rgba(230,230,230,1),rgba(260,260,260,1));
+    color:black !important;   
+}
+#Synthese .button:hover {
     background: cornflowerblue;
     color:white
 }

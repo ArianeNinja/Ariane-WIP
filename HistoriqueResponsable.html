@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>Ariane</title>
+    <!-- Styles -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="CSS/cupertino/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" />
+    <link href="CSS/dataTables.jqueryui.min.css" rel="stylesheet" />
+    <link href="CSS/site.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="scripts/jquery-1.12.4.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="scripts/i18n/jquery.ui.datepicker-fr.js"></script>
+    <script src="scripts/jquery.dataTables.min.js"></script>
+    <script src="scripts/dataTables.jqueryui.js"></script>
+    <script src="scripts/i18n/dataTable-fr.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('table thead tr').prepend('<th>Sélection</th>');
+
+            $('table tbody tr').each(function (index) {         //fonction each récupère les valeurs de l'index
+               $(this).prepend('<td><input type="checkbox" " value="'+(index+1)+'"/></td>');
+            });
+
+            $('table').dataTable({
+                language: {
+                    url: "scripts/i18n/dataTable-fr.js"
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div id="logo">
+                <img src="images/Ariane Logo3.png" alt="logo Ariane" title="Retour à la connexion" />
+            </div>
+            <h1>Historique</h1>
+            <div id="menu1">
+                <nav class="navbar navbar-default">
+                    <!--cadre-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="AttributionResponsable.html">Attribution des demande de comptes de résultats</a></li>
+                        <li><a href="ComptesEnAttenteValidationResponsable.html">Comptes en attente validation</a></li>
+                        <li><a href="HistoriqueResponsable.html">Historique</a></li>
+                        <li><a href="NotificationsResponsable.html">Notifications</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="main">
+            <section id="main">
+                <section class="row">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+
+                                <th>Nom Entreprise</th>
+                                <th>Segment entreprise</th>
+                                <th>Date de la demande</th>
+                                <th>Expéditeur</th>
+                                <!--<th>Destinataires Finaux</th>-->
+                                <th>Date de retour souhaitée</th>
+                                <th>Collaborateur</th>
+                                <th>Staut de la demande</th>
+                                <th>Date d'attribution</th>
+                                <th>Temps de réalisation</th>
+                                <th>Date de validation</th>
+                                <th>Validé par</th>
+                                <th>Commentaires</th>                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MOULINEX</td>
+                                <td>Grand Compte</td>
+                                <td class="numeric">19/10/2016</td>
+                                <td>Arnaud</td>
+                                <!--<td>Arnaud</td>-->
+                                <td class="numeric">25/10/2016</td>
+                                <td>Jean-Marc</td>
+                                <td>En cours de validation</td>
+                                <td class="numeric">27/10/2016</td>
+                                <td>10 jours</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            
+
+                        </tbody>
+                    </table>
+
+                </section>
+            </section>
+    </div>
+
+</body>
+</html>
