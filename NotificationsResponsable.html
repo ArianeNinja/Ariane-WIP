@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>Ariane</title>
+    <!-- Styles -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="CSS/cupertino/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" />
+    <link href="CSS/dataTables.jqueryui.min.css" rel="stylesheet" />
+    <link href="CSS/site.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="scripts/jquery-1.12.4.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="scripts/i18n/jquery.ui.datepicker-fr.js"></script>
+    <script src="scripts/jquery.dataTables.min.js"></script>
+    <script src="scripts/dataTables.jqueryui.js"></script>
+    <script src="scripts/i18n/dataTable-fr.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('table thead tr').prepend('<th>Sélection</th>');
+
+            $('table tbody tr').each(function (index) {         //fonction each récupère les valeurs de l'index
+                $(this).prepend('<td><input type="checkbox" " value="' + (index + 1) + '"/></td>');
+            });
+
+            $('table').dataTable({
+                language: {
+                    url: "scripts/i18n/dataTable-fr.js"
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div id="logo">
+                <img src="images/Ariane Logo3.png" alt="logo Ariane" title="Retour à la connexion" />
+            </div>
+            <h1>Notifications</h1>
+            <div id="menu1">
+                <nav class="navbar navbar-default">
+                    <!--cadre-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="AttributionResponsable.html">Attribution des demande de comptes de résultats</a></li>
+                        <li><a href="ComptesEnAttenteValidationResponsable.html">Comptes en attente validation</a></li>
+                        <li><a href="HistoriqueResponsable.html">Historique</a></li>
+                        <li><a href="NotificationsResponsable.html">Notifications</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="main">
+            <section id="notifications">
+                <section class="row">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nom Entreprise</th>
+                                <th>Contenu</th>
+                                <th>Date de notification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MOULINEX</td>
+                                <td>Le compte de résultat est en attente de validation</td>
+                                <td class="numeric">07/11/2016</td>
+                            </tr>
+                            <tr>
+                                <td>SPONTEX</td>
+                                <td>Nouvelle demande de compte créée</td>
+                                <td class="numeric">07/11/2016</td>
+                            </tr>
+
+                            <tr>
+                                <td>SNCF</td>
+                                <td>Jean-Marc s'est attribuée la demande de compte</td>
+                                <td class="numeric">09/11/2016</td>
+                            </tr>
+                            <tr>
+                                <td>AMAZON</td>
+                                <td>Le commercial a modifié la demande</td>
+                                <td class="numeric">09/11/2016</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+            <section class="ReceptionNotification">
+                <div>
+                    <p class="col-sm-offset-1 col-sm-8">
+                        Recevoir une copie de notification par e-mail si un compte de résultats est en attente de validation
+                    </p>
+                    <input type="checkbox" />
+                </div>
+                <div>
+                    <p class="col-sm-offset-1 col-sm-8">
+                        Recevoir une copie de notification par e-mail lorsque une nouvelle demande de compte de résultats a été créée
+                    </p>
+                    <input type="checkbox" />
+
+                </div>
+                <div>
+                    <p class="col-sm-offset-1 col-sm-8">
+                        Recevoir une copie de notification par e-mail lorsqu'un collaborateur s'est atribuée une demande de compte de résultats
+                    </p>
+                    <input type="checkbox" />
+                </div>
+                <div>
+                    <p class="col-sm-offset-1 col-sm-8">
+                        Recevoir une copie de notification par e-mail lorsqu'un commercial a modifié sa demande
+                    </p>
+                    <input type="checkbox" />
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-2">
+                        <input type="submit" value="Valider les modifications" class="button">
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+</body>
+</html>
