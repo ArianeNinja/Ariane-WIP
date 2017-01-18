@@ -121,15 +121,15 @@ table.dataTable tbody td {
 }
 #Synthese table {
     width: 50% !important;
-   /* margin-left:50px ;
+    margin-left:50px ;
     padding:200px;
-    margin-right:50px;*/
+    margin-right:50px;
 }
 
 #Synthese .dataTables_wrapper .ui-toolbar {
     width:50% !important;
-   /*margin-left:50px;
-   margin-right:50px;*/
+   margin-left:50px;
+   margin-right:50px;
    font-size:0.8em;
 }
 #Attribution .dataTables_wrapper .ui-toolbar {

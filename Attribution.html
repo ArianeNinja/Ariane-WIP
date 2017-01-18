@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>Ariane</title>
+    <!-- Styles -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="CSS/cupertino/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" />
+    <link href="CSS/dataTables.jqueryui.min.css" rel="stylesheet" />
+    <link href="CSS/site.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="scripts/jquery-1.12.4.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="scripts/i18n/jquery.ui.datepicker-fr.js"></script>
+    <script src="scripts/jquery.dataTables.min.js"></script>
+    <script src="scripts/dataTables.jqueryui.js"></script>
+    <script src="scripts/i18n/dataTable-fr.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('table thead tr').prepend('<th>Sélection</th>');
+
+            $('table tbody tr').each(function (index) {         //fonction each récupère les valeurs de l'index
+                $(this).prepend('<td><input type="checkbox" " value="' + (index + 1) + '"/></td>');
+            });
+
+            $('table').dataTable({
+                language: {
+                    url: "scripts/i18n/dataTable-fr.js"
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div id="logo">
+                <img src="images/Ariane Logo3.png" alt="logo Ariane" title="Retour à la connexion" />
+            </div>
+            <h1>Attribution des demandes de comptes de résultats</h1>
+            <div id="menu1">
+                <nav class="navbar navbar-default">
+                    <!--cadre-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="Attribution.html">Attribution des demande de comptes de résultats</a></li>
+                        <li><a href="Comptes en attente validation.html">Comptes en attente validation</a></li>
+                        <li><a href="Historique.html">Historique</a></li>
+                        <li><a href="NotificationsResponsable.html">Notifications</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="main">
+            <h2>Attribution des demandes</h2>
+            <div class="section" id="Attribution">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+
+                            <label class="control-label">Attribuer le dossier à</label>
+
+                            <select class=form-control>
+                                <option value=""></option>
+                                <option value="JMa">Jean-Marc</option>
+                                <option value="Sop">Sophie</option>
+                                <option value="Cla">Claude</option>
+                                <option value="Ste">Stéphanie</option>
+                            </select>
+                            <input type="submit" value="Valider" class="button col-sm-1">
+
+                        </div>
+                        <div class="col-md-10">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Nom Entreprise</th>
+                                        <th>Date de la demande</th>
+                                        <th>Date de retour </th>
+                                        <th>Expéditeur</th>
+                                        <th>Destinataires Finaux</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+
+                                        <td>THERMAL CERAMICS - Fronting Allianz</td>
+                                        <td class="numeric">07/11/2016</td>
+                                        <td class="numeric">28/05/2016</td>
+                                        <td>Arnaud</td>
+                                        <td>Arnaud</td>
+                                    </tr>
+                                    <tr>
+                                        <!--<td><input type="checkbox" /></td>-->
+                                        <td>TRENCH France</td>
+                                        <td class="numeric">04/01/2017</td>
+                                        <td class="numeric">20/01/2017</td>
+                                        <td>Denis</td>
+                                        <td>Denis</td>
+                                    </tr>
+
+                                    <tr>
+                                        <!--<td><input type="checkbox" /></td>-->
+                                        <td>CARRUS</td>
+                                        <td class="numeric">14/12/2016</td>
+                                        <td class="numeric">03/01/2017</td>
+                                        <td>Rodolphe</td>
+                                        <td>Rodolphe</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <h2>Synthèse des dossiers en cours de traitement</h2>
+            <div class="section" id="Synthese">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Collaborateur</th>
+                                        <th>Nombre de dossiers en cours</th>
+                                        <th>Equivalence en jours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Jean-Marc</td>
+                                        <td class="numeric">6</td>
+                                        <td class="numeric">96</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sophie</td>
+                                        <td class="numeric">4</td>
+                                        <td class="numeric">56</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Claude</td>
+                                        <td class="numeric">3</td>
+                                        <td class="numeric">52</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Stéphanie</td>
+                                        <td class="numeric">2</td>
+                                        <td class="numeric">24</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Steeve</td>
+                                        <td class="numeric">5</td>
+                                        <td class="numeric">82</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Benoît</td>
+                                        <td class="numeric">4</td>
+                                        <td class="numeric">64</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Aurélie</td>
+                                        <td class="numeric">2</td>
+                                        <td class="numeric">18</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Laurence</td>
+                                        <td class="numeric">5</td>
+                                        <td class="numeric">58</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sébastien</td>
+                                        <td class="numeric">3</td>
+                                        <td class="numeric">28</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Michkat</td>
+                                        <td class="numeric">2</td>
+                                        <td class="numeric">30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Magali</td>
+                                        <td class="numeric">4</td>
+                                        <td class="numeric">68</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fanny</td>
+                                        <td class="numeric">2</td>
+                                        <td class="numeric">26</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Manuela</td>
+                                        <td class="numeric">5</td>
+                                        <td class="numeric">48</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nathalie</td>
+                                        <td class="numeric">6</td>
+                                        <td class="numeric">46</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="col-md-2">
+                                <input type="submit" value="Voir le détail" class="button">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
