@@ -1,0 +1,66 @@
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\ApplicationInsights.config
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\csc.exe
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\vbc.exe
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\prototype.dll.config
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\prototype.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\prototype.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.Web.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.Web.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\obj\Debug\prototype.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\obj\Debug\prototype.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\prototype\prototype\obj\Debug\prototype.pdb
+D:\prototype\prototype\bin\ApplicationInsights.config
+D:\prototype\prototype\bin\roslyn\csc.exe
+D:\prototype\prototype\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\prototype\prototype\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\prototype\prototype\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\prototype\prototype\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\prototype\prototype\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\prototype\prototype\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\prototype\prototype\bin\roslyn\System.Collections.Immutable.dll
+D:\prototype\prototype\bin\roslyn\System.Reflection.Metadata.dll
+D:\prototype\prototype\bin\roslyn\vbc.exe
+D:\prototype\prototype\bin\roslyn\VBCSCompiler.exe
+D:\prototype\prototype\bin\roslyn\VBCSCompiler.exe.config
+D:\prototype\prototype\bin\prototype.dll.config
+D:\prototype\prototype\bin\prototype.dll
+D:\prototype\prototype\bin\prototype.pdb
+D:\prototype\prototype\bin\Microsoft.AI.Agent.Intercept.dll
+D:\prototype\prototype\bin\Microsoft.AI.DependencyCollector.dll
+D:\prototype\prototype\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\prototype\prototype\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\prototype\prototype\bin\Microsoft.AI.Web.dll
+D:\prototype\prototype\bin\Microsoft.AI.WindowsServer.dll
+D:\prototype\prototype\bin\Microsoft.ApplicationInsights.dll
+D:\prototype\prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\prototype\prototype\bin\Microsoft.AI.DependencyCollector.xml
+D:\prototype\prototype\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\prototype\prototype\bin\Microsoft.AI.Web.xml
+D:\prototype\prototype\bin\Microsoft.AI.WindowsServer.xml
+D:\prototype\prototype\bin\Microsoft.ApplicationInsights.xml
+D:\prototype\prototype\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\prototype\prototype\obj\Debug\prototype.csprojResolveAssemblyReference.cache
+D:\prototype\prototype\obj\Debug\prototype.dll
+D:\prototype\prototype\obj\Debug\prototype.pdb
