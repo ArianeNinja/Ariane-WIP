@@ -3,10 +3,10 @@
     margin: 0px;
 }
 body {
-    font-size: 12pt;
+    font-size: 10pt;
     font-style: normal;
     font-family: Tahoma, sans-serif;
-    background-color: rgba(133,175,255,0.3);
+    background-color: rgba(133,175,255,0.4);
     
 }
 
@@ -66,7 +66,7 @@ header h1 {
 }
 
 #main {
-    height:500px;
+    height:1000px;
 
 }  
 
@@ -95,4 +95,77 @@ header h1 {
     display:flex;
     flex-direction:column;
 }
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.5em;
+    text-align:center;
+    padding-top:15px;
+    font-weight:bold;
+}
 
+sorting ui-state-default sorting_asc {
+    width: 60px !important;
+}
+table.dataTable thead th, table.dataTable tfoot th {
+        /*font-weight: bold;*/
+        font-size:0.8em;
+    }
+
+table.dataTable tbody td {
+        /*font-weight: bold;*/
+        font-size:0.8em;
+    }
+#Attribution table {
+    width: 60% !important;
+   
+}
+#Synthese table {
+    width: 50% !important;
+   /* margin-left:50px ;
+    padding:200px;
+    margin-right:50px;*/
+}
+
+#Synthese .dataTables_wrapper .ui-toolbar {
+    width:50% !important;
+   /*margin-left:50px;
+   margin-right:50px;*/
+   font-size:0.8em;
+}
+#Attribution .dataTables_wrapper .ui-toolbar {
+    width:60% !important;
+    margin-left:183px;
+   font-size:0.8em;
+
+}
+.dataTables_wrapper .ui-toolbar {    
+   font-size:0.8em;
+}
+#notifications .dataTables_wrapper .ui-toolbar {
+   width:60% !important;
+   margin-left:100px;
+   font-size:0.8em;
+}
+#notifications table {
+    width: 60% !important;
+    margin-left:100px;
+}
+.form-group{
+    display:flex;
+    flex-direction:column;
+}
+#Attribution .button{ 
+    margin-top:10px;
+    margin-bottom:10px; 
+    min-width:50px;
+    height:auto;
+    border:none;
+    border-radius:5px;
+    /*background: linear-gradient(cornflowerblue,rgba(101,156,239,0.1));*/
+    background: linear-gradient(rgba(230,230,230,1),rgba(260,260,260,1));
+    color:black !important;   
+}
+#Attribution .button:hover {
+    background: cornflowerblue;
+    color:white
+}
